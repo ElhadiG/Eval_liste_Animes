@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animés à finir</title>
+    <link rel="stylesheet" href="animes.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"> </script>
+</head>
+<body>
+    <nav>
+        <a href="file:///Users/hajjo/Eval%20Ghanem%20Elhadi/EvalListeAnimés/frontend/Animés_à_venir.html"> A venir</a>
+    </nav>
+    <main>
+        <h1>Animés à finir</h1>
+        <div class="content">
+            <section class="vertical">
+                <h2>Tous les animés</h2>
+                <div id="all-animes">
+                    <button id="getAll-button">Liste des Animés</button>
+                </div>
+            </section>
+            <section class="actions">
+                <div>
+                    <h2>Ajout d'un animé</h2>
+                    <div>
+                        <label for="name">Nom de l'animé</label>
+                        <input type="text" id="add-anime">
+                        <label for="year">Année de sortie</label>
+                        <input type="text" id="add-year">
+                    </div>
+                    <button id="add-button">Ajout</button>
+                </div>
+                <div>
+                    <h2>Selection d'un animé</h2>
+                    <div>
+                        <label for="id">Id de l'animé</label>
+                        <input type="text" id="id-anime">
+                        <button id="getOne-button">Selectionnez un animé</button>
+                        <div id="one-anime"></div>
+                    </div>
+                </div>
+                <div>
+                    <h2>Mise à jour d'un Anime</h2>
+                    <div>
+                        <label for="id">Id du Anime</label>
+                        <input type="text" id="id-anime-update">
+                        <label for="name">Nom du Anime</label>
+                        <input type="text" id="anime-update">
+                        <label for="year">Année de sortie</label>
+                        <input type="text" id="year-update">
+                        <button id="update-button">Modifier l'animé</button>
+                    </div>
+                </div>
+                <div>
+                    <h2>Suppression d'un animé</h2>
+                    <div>
+                        <label for="id">Id de l'animé</label>
+                        <input type="text" id="delete-anime">
+                        <button id="delete-button">Suppression d'un animé</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="toWatch.js"></script>
+</body>
+
+</html>

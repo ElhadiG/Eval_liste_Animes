@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-image: url("one_piece.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    text-align: center;
+    height: 5vh;
+}
+a{
+    background-color: rgb(151, 151, 248); 
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+a:hover{
+    color: teal;
+}
+/* main{
+    background-color: rgb(131, 131, 208);
+} */
+h1{
+    background-color: rgb(220, 20, 60);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+.content{
+    display: flex;
+}
+section{
+        display: flex;
+        flex: 1;
+        height: 85vh;
+}
+.vertical{
+    flex-direction: column;
+    background-color: rgba(186, 193, 222, 0.711);
+    border-radius: 5px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.actions{
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(216, 112, 147, 0.684); 
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 100px;
+}
